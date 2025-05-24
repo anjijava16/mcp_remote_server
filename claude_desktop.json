@@ -1,0 +1,59 @@
+{
+      
+      "mcpServersANJI": {
+        "postgres": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "@modelcontextprotocol/server-postgres",
+                "postgresql+psycopg2://postgres:postgres@localhost:5432/postgres"
+            ]
+        }
+    ,
+    
+     "mcpServers": {
+    "Render": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "supergateway",
+        "--sse",
+        "http://localhost:8001/sse"
+      ]
+    }
+  },
+      "filesystem": {
+        "command": "npx",
+        "args": [
+          "-y",
+          "@modelcontextprotocol/server-filesystem",
+          "/Users/welcome/Desktop",
+          "/Users/welcome/Downloads"
+        ]
+      },
+
+        "Azure MCP Server": {
+        "command": "npx",
+        "args": [
+        "-y",
+        "@azure/mcp@latest",
+        "server",
+        "start"
+        ]
+        }
+        ,
+     
+      "LeaveManager": {
+         "command": "/Users/welcome/Desktop/Tech_Repos/python_envs/mcp_servers/mcp_end_end/.venv/bin/python",
+        "args": [
+         "/Users/welcome/Desktop/Tech_Repos/python_envs/mcp_servers/mcp_end_end/mcp_database_server/main.py"
+        ]
+      },
+      "mcp-server-aws": {
+         "command": "/Users/welcome/Desktop/Tech_Repos/python_envs/mcp_servers/mcp_end_end/.venv/bin/python",
+        "args": [
+         "/Users/welcome/Desktop/Tech_Repos/python_envs/mcp_servers/mcp_end_end/mcp_server_aws/server.py"
+        ]
+      }
+    }
+  }
