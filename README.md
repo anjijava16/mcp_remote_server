@@ -21,3 +21,7 @@
 
 # MCP servers
 1. https://toolbox-990868019953.us-central1.run.app/mcp/sse
+
+
+# MCP Google Toolbox (Databases)  
+1. https://googleapis.github.io/genai-toolbox/how-to/connect_via_mcp/
