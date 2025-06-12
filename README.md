@@ -22,6 +22,9 @@
 # MCP servers
 1. https://toolbox-990868019953.us-central1.run.app/mcp/sse
 
+# MCP openSource
+1. https://github.com/neo4j-contrib/mcp-neo4j/tree/main/servers
+
 
 # MCP Google Toolbox (Databases)  
 1. https://googleapis.github.io/genai-toolbox/how-to/connect_via_mcp/
