@@ -1,4 +1,4 @@
-# MCP ReĀistries & Marketplaces
+# MCP Registry & Marketplaces
 
 ● MCP Servers GitHub (500)
 
