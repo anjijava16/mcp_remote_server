@@ -23,7 +23,9 @@
 1. https://toolbox-990868019953.us-central1.run.app/mcp/sse
 
 # MCP openSource
-1. https://github.com/neo4j-contrib/mcp-neo4j/tree/main/servers
+1. https://github.com/awslabs/mcp/tree/main/src/terraform-mcp-server
+2. https://www.marktechpost.com/2025/06/08/50-model-context-protocol-mcp-servers-worth-exploring/
+3. https://github.com/neo4j-contrib/mcp-neo4j/tree/main/servers )
 
 
 # MCP Google Toolbox (Databases)  
